@@ -1,0 +1,133 @@
+.rvs-logo{
+    width: 160px;
+/*    filter:saturate(100px);*/
+/*
+    background-color: rgba(255,255,255,.75);
+    border-radius: 100px;
+    padding: 0 16px;
+*/
+}
+.banner-area{
+    font-weight: 100;
+}
+.rvs-btn{
+    background-color: #fff;
+    padding: 16px;
+    border-radius: 30px;
+    color: #3E7050 !important;
+    font-size: 16px;
+    text-transform: uppercase;
+    box-shadow: 0 16px 40px rgba(0,0,0,.15) !important;
+    transition: all .3s;
+}
+
+.rvs-btn:hover{
+    transform: translateY(-3px);
+}
+
+.rvs-img-about{
+    border-radius: 10px;
+    box-shadow: 0 16px 60px rgba(0,0,0,.25);
+    transform: scale(.6) translateY(-50px);
+}
+.rvs-image-features{
+    margin-top: 60px;
+    border-radius: 10px;
+}
+
+#about,
+#showcase,
+#download-area{
+    transform: skewY(-3deg);
+    box-shadow: 0 10px 30px rgba(0,0,0,.25);
+}
+#about > * ,
+#showcase > *,
+#download-area > * {
+    transform: skewY(3deg);
+}
+
+#showcase span,
+#showcase h1{
+    color: #fff;
+}
+
+#footer-area span,
+#footer-area ul{
+    display: block;
+    text-align: center;
+    color: #fff;
+}
+.span-footer-rvs{
+    margin: 30px 0 0px 0;
+    font-size: 10px;
+}
+/*
+.rvs-box-text{
+    padding: 32px;
+    margin-bottom: 16px;
+    display: inline-block;
+    width: 50%;
+    color: #eee;   
+    background-color: rgba(255,255,255,.75);
+    transform: skewX(-12deg);
+}
+.rvs-box-text > *{
+    transform: skewX(12deg);
+    
+}
+.rvs-span,
+.rvs-span2{
+    color: #777 !important;
+}
+
+*/
+
+.btn:link, .btn:visited {
+  display: inline-block;
+  padding: 1.5rem 4rem;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  text-decoration: none;
+  border-radius: 10rem;
+  transition: all 0.2s;
+  position: relative; }
+
+.btn:hover {
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+  transform: translateY(-3px); }
+  .btn:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0; }
+
+.btn:active {
+  transform: translateY(-1px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2); }
+
+.btn::after {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  border-radius: 10rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all .4s; }
+
+.btn--white {
+  background-color: #fff;
+  color: #777; }
+  .btn--white::after {
+    background-color: #fff; }
+
+.btn--green {
+  background-color: #55c57a;
+  color: #fff; }
+  .btn--green::after {
+    background-color: #55c57a; }
+
+.btn--animated {
+  animation: MoveInBottom .5s ease-out .75s;
+  animation-fill-mode: backwards; }
